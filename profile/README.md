@@ -91,7 +91,7 @@ Across NODE63 Labs, we optimize for:
 
 ---
 
-## Repository Visibility
+## Repository Visibility Model
 
 | Public | Private |
 | --- | --- |
