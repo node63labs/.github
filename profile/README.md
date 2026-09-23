@@ -1,41 +1,28 @@
 # NODE63 Labs
 
-**Building practical technology for cloud infrastructure, operational systems, and digital platforms.**
+**Building secure cloud platforms, operational systems, and vertical software.**
 
-NODE63 Labs is a technology company focused on **cloud engineering, platform engineering, secure automation, operational software, developer tooling, and reliable digital systems**.
+NODE63 Labs is a technology company focused on **platform engineering, cloud infrastructure, secure automation, developer tooling, and operational software**.
 
-We build products that help teams operate complex systems with greater clarity, control, and trust.
+We build independent products on top of a governed engineering foundation, with clear boundaries between reusable technical capabilities and product-specific domain authority.
 
----
-
-## Open Developer Ecosystem
-
-NODE63 Labs publishes selected developer-facing components so developers can **integrate with our products without exposing proprietary production internals**.
-
-Public resources may include:
-
-- API specifications and schemas
-- SDKs and client libraries
-- Developer documentation
-- Integration examples and starter projects
-- Selected engineering tools
-- Selected open-source projects
-
-Our **production applications, control planes, operational infrastructure, security-sensitive systems, proprietary automation, and internal implementation details remain private**.
-
-> **Public interfaces. Private implementation. Clear boundaries.**
+> **Clear boundaries. Reproducible systems. Evidence-backed engineering.**
 
 ---
 
-## Lariba Cloud
+## Products
 
-**Lariba Cloud** is an operational control plane designed to help teams understand activity, coordinate cloud and local systems, and automate response under explicit governance.
+### Lariba Cloud
 
-Its operating model is built around three principles:
+**Lariba Cloud** is an operational control plane for cloud and operational systems.
+
+It is designed to help teams understand activity, coordinate systems, automate bounded actions, and retain evidence of what happened.
 
 **Govern · Orchestrate · Prove**
 
-### Public developer resources
+Lariba Cloud also provides reusable platform capabilities that can support other NODE63 products without absorbing their domain authority.
+
+#### Public developer resources
 
 | Repository | Purpose |
 | --- | --- |
@@ -45,18 +32,62 @@ Its operating model is built around three principles:
 
 Additional SDKs, tooling, examples, and developer resources may be published as the ecosystem evolves.
 
+### MedicamentOS
+
+**MedicamentOS** is operational software for modern pharmacy workflows.
+
+It is being designed around reliable day-to-day operations, inventory and stock workflows, pharmacy-domain control, and a clear separation between shared technical infrastructure and pharmacy business authority.
+
 ---
 
-## Engineering Principles
+## Platform Engineering
+
+Across NODE63 Labs, reusable technical capabilities are developed behind explicit contracts and ownership boundaries.
+
+Current platform areas include:
+
+- identity and authentication primitives
+- service and environment identity
+- permission and authorization foundations
+- secrets isolation
+- event contracts, ingestion, and routing
+- observability and operational evidence
+- release and execution provenance
+- SDKs, APIs, and integration tooling
+
+Reusable infrastructure may be shared across products. **Product-specific business rules and domain authority remain inside the product that owns them.**
+
+---
+
+## Open Developer Ecosystem
+
+NODE63 Labs publishes selected developer-facing components so developers can integrate with our products without exposing proprietary production internals.
+
+Public resources may include:
+
+- API specifications and schemas
+- SDKs and client libraries
+- developer documentation
+- integration examples and starter projects
+- selected engineering tools
+- explicitly licensed open-source projects
+
+Our **production applications, control planes, operational infrastructure, security-sensitive systems, proprietary automation, and internal implementation details remain private**.
+
+> **Public interfaces. Private implementation. Explicit contracts.**
+
+---
+
+## How We Engineer
 
 Across NODE63 Labs, we optimize for:
 
-- **Security by design** — security is treated as a system property, not an afterthought.
-- **Explicit authority** — identity, permissions, policy, and execution boundaries should be clear.
-- **Evidence over assumptions** — important actions should be verifiable and auditable.
-- **Reproducible engineering** — environments, builds, and delivery processes should be consistent and testable.
-- **Stable public contracts** — developer-facing interfaces should evolve deliberately.
-- **Private production internals** — proprietary and security-sensitive implementation remains protected.
+- **Architecture before structural implementation** — significant system changes begin with explicit boundaries and design intent.
+- **Explicit authority** — identity, permissions, policy, environment, and execution boundaries should be clear.
+- **Evidence before acceptance** — code existing or CI passing is not, by itself, proof that a capability is accepted.
+- **Reproducible engineering** — builds, environments, tests, and delivery paths should be independently repeatable.
+- **Stable public contracts** — developer-facing interfaces should evolve deliberately and compatibly.
+- **Security by design** — sensitive implementation and production authority remain tightly controlled.
 
 ---
 
@@ -79,14 +110,9 @@ A repository being public does **not** automatically mean it is open source. Reu
 
 Contribution policies vary by repository.
 
-Before opening an issue or pull request, review the repository's:
+Before opening an issue or pull request, review the repository's `README.md`, `CONTRIBUTING.md`, `SECURITY.md`, and `LICENSE` when available.
 
-- `README.md`
-- `CONTRIBUTING.md`, when available
-- `SECURITY.md`, when available
-- `LICENSE`
-
-Please keep bug reports, feature requests, and integration discussions scoped to the relevant public repository.
+Keep bug reports, feature requests, and integration discussions scoped to the relevant public repository.
 
 ---
 
@@ -108,6 +134,6 @@ Each public repository defines its own licensing terms.
 
 ## NODE63 Labs
 
-We are building a developer ecosystem where public specifications, SDKs, documentation, and selected tooling make integration easier while production systems remain protected behind clear technical and security boundaries.
+We are building a multi-product engineering company where reusable platform capabilities make product development faster without weakening ownership, security, or domain boundaries.
 
 **Building what's next.**
